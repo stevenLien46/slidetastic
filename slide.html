@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script type="text/javascript" src="js/main.js"></script>
+	  <link rel="stylesheet" type="text/css" href="css/main.css">
+	  <title>Marvel Slider</title>
+
+	  <style type="text/css">
+	  	#slideshow{
+	  		position: relative;
+	  		width: 400px;
+	  		height: 280px;
+	  		border: 1px solid red;
+	  	}
+	  </style>
+
+	</head>
+	<body>
+			
+
+		<h1>Marvel Slider</h1>
+
+		<script>
+			$(document).ready(function(){
+				$('.slidetastic').slidetastic(); //slidetastic is not a jquery function, so we have to create it on main.js
+			});
+		</script>
+
+	<div id="slideshow">
+		<ul class="slidetastic">
+			<li><img src="img/1.jpg" width="400" height="280" /></li>
+			<li><img src="img/2.png" width="400" height="280" /></li>
+			<li><img src="img/3.jpg" width="400" height="280" /></li>
+			<li><img src="img/4.jpg" width="400" height="280" /></li>
+			<li><img src="img/5.jpg" width="400" height="280" /></li>
+		</ul>
+	</div>
+
+	</body>
+</html>
